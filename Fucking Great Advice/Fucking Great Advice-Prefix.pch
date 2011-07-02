@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Fucking Great Advice' target in the 'Fucking Great Advice' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03839B713ADE1A30098A133 /* 1308469776_no.png in Resources */ = {isa = PBXBuildFile; fileRef = C03839B613ADE1A30098A133 /* 1308469776_no.png */; };
+		C03839BA13ADE3270098A133 /* 1308469776_no copy.png in Resources */ = {isa = PBXBuildFile; fileRef = C03839B913ADE3260098A133 /* 1308469776_no copy.png */; };
+		C0744AD513AB577C0063054F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0744AD413AB577C0063054F /* JSONKit.m */; };
+		C0744ADA13AB5C9D0063054F /* EBRPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0744AD913AB5C9D0063054F /* EBRPopoverView.m */; };
+		C07AFF2F13AB30DD00F1BBAC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07AFF2E13AB30DD00F1BBAC /* Cocoa.framework */; };
+		C07AFF3913AB30DE00F1BBAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C07AFF3713AB30DE00F1BBAC /* InfoPlist.strings */; };
+		C07AFF3B13AB30DE00F1BBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AFF3A13AB30DE00F1BBAC /* main.m */; };
+		C07AFF3F13AB30DE00F1BBAC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C07AFF3D13AB30DE00F1BBAC /* Credits.rtf */; };
+		C07AFF4213AB30DE00F1BBAC /* Fucking_Great_AdviceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AFF4113AB30DE00F1BBAC /* Fucking_Great_AdviceAppDelegate.m */; };
+		C07AFF4513AB30DE00F1BBAC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07AFF4313AB30DE00F1BBAC /* MainMenu.xib */; };
+		C07AFF5313AB38A700F1BBAC /* BCStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AFF5013AB38A700F1BBAC /* BCStatusItemView.m */; };
+		C07AFF5413AB38A700F1BBAC /* NSStatusItem+BCStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AFF5213AB38A700F1BBAC /* NSStatusItem+BCStatusItem.m */; };
+		C07AFF6613AB3F5600F1BBAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07AFF6513AB3F5600F1BBAC /* QuartzCore.framework */; };
+		C07AFF9413AB48DE00F1BBAC /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AFF9213AB48DE00F1BBAC /* PopoverViewController.m */; };
+		C07AFF9513AB48DE00F1BBAC /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07AFF9313AB48DE00F1BBAC /* PopoverViewController.xib */; };
+		C0BB576E13AB975B00B390DC /* FGAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0BB576C13AB975B00B390DC /* FGAIcon.png */; };
+		C0BB577613AB9A4E00B390DC /* fullsizeAppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C0BB577513AB9A4E00B390DC /* fullsizeAppIcon.icns */; };
+		C0BB577913ACA85C00B390DC /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BB577813ACA85C00B390DC /* MAAttachedWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C07AFF6713AB42FA00F1BBAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C03839B613ADE1A30098A133 /* 1308469776_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1308469776_no.png; path = ../../../../Desktop/1308469776_no.png; sourceTree = "<group>"; };
+		C03839B913ADE3260098A133 /* 1308469776_no copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1308469776_no copy.png"; path = "../../../../Desktop/1308469776_no copy.png"; sourceTree = "<group>"; };
+		C0744AD313AB577C0063054F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONkit/JSONKit.h; sourceTree = "<group>"; };
+		C0744AD413AB577C0063054F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONkit/JSONKit.m; sourceTree = "<group>"; };
+		C0744AD813AB5C9D0063054F /* EBRPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBRPopoverView.h; path = ../EBRPopoverView.h; sourceTree = "<group>"; };
+		C0744AD913AB5C9D0063054F /* EBRPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBRPopoverView.m; path = ../EBRPopoverView.m; sourceTree = "<group>"; };
+		C07AFF2A13AB30DD00F1BBAC /* Fucking Great Advice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fucking Great Advice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07AFF2E13AB30DD00F1BBAC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C07AFF3113AB30DD00F1BBAC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C07AFF3213AB30DD00F1BBAC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C07AFF3313AB30DD00F1BBAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C07AFF3613AB30DD00F1BBAC /* Fucking Great Advice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fucking Great Advice-Info.plist"; sourceTree = "<group>"; };
+		C07AFF3813AB30DE00F1BBAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C07AFF3A13AB30DE00F1BBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C07AFF3C13AB30DE00F1BBAC /* Fucking Great Advice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fucking Great Advice-Prefix.pch"; sourceTree = "<group>"; };
+		C07AFF3E13AB30DE00F1BBAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C07AFF4013AB30DE00F1BBAC /* Fucking_Great_AdviceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fucking_Great_AdviceAppDelegate.h; sourceTree = "<group>"; };
+		C07AFF4113AB30DE00F1BBAC /* Fucking_Great_AdviceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fucking_Great_AdviceAppDelegate.m; sourceTree = "<group>"; };
+		C07AFF4413AB30DE00F1BBAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C07AFF4F13AB38A700F1BBAC /* BCStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCStatusItemView.h; path = BCStatusItem/BCStatusItem/BCStatusItemView.h; sourceTree = "<group>"; };
+		C07AFF5013AB38A700F1BBAC /* BCStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCStatusItemView.m; path = BCStatusItem/BCStatusItem/BCStatusItemView.m; sourceTree = "<group>"; };
+		C07AFF5113AB38A700F1BBAC /* NSStatusItem+BCStatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSStatusItem+BCStatusItem.h"; path = "BCStatusItem/BCStatusItem/NSStatusItem+BCStatusItem.h"; sourceTree = "<group>"; };
+		C07AFF5213AB38A700F1BBAC /* NSStatusItem+BCStatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSStatusItem+BCStatusItem.m"; path = "BCStatusItem/BCStatusItem/NSStatusItem+BCStatusItem.m"; sourceTree = "<group>"; };
+		C07AFF6513AB3F5600F1BBAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C07AFF9113AB48DE00F1BBAC /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
+		C07AFF9213AB48DE00F1BBAC /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
+		C07AFF9313AB48DE00F1BBAC /* PopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
+		C0BB576D13AB975B00B390DC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/FGAIcon.png; sourceTree = "<group>"; };
+		C0BB577513AB9A4E00B390DC /* fullsizeAppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = fullsizeAppIcon.icns; path = ../fullsizeAppIcon.icns; sourceTree = "<group>"; };
+		C0BB577713ACA85C00B390DC /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAAttachedWindow.h; path = MAAttachedWindow/MAAttachedWindow.h; sourceTree = "<group>"; };
+		C0BB577813ACA85C00B390DC /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAAttachedWindow.m; path = MAAttachedWindow/MAAttachedWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07AFF2713AB30DD00F1BBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07AFF6613AB3F5600F1BBAC /* QuartzCore.framework in Frameworks */,
+				C07AFF2F13AB30DD00F1BBAC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0744AD613AB5B3C0063054F /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				C0744AD313AB577C0063054F /* JSONKit.h */,
+				C0744AD413AB577C0063054F /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		C0744AD713AB5B460063054F /* MAAttachedWindow */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB577713ACA85C00B390DC /* MAAttachedWindow.h */,
+				C0BB577813ACA85C00B390DC /* MAAttachedWindow.m */,
+			);
+			name = MAAttachedWindow;
+			sourceTree = "<group>";
+		};
+		C07AFF1F13AB30DD00F1BBAC = {
+			isa = PBXGroup;
+			children = (
+				C07AFF3413AB30DD00F1BBAC /* Fucking Great Advice */,
+				C07AFF2D13AB30DD00F1BBAC /* Frameworks */,
+				C07AFF2B13AB30DD00F1BBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C07AFF2B13AB30DD00F1BBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07AFF2A13AB30DD00F1BBAC /* Fucking Great Advice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07AFF2D13AB30DD00F1BBAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C07AFF6513AB3F5600F1BBAC /* QuartzCore.framework */,
+				C07AFF2E13AB30DD00F1BBAC /* Cocoa.framework */,
+				C07AFF3013AB30DD00F1BBAC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07AFF3013AB30DD00F1BBAC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C07AFF3113AB30DD00F1BBAC /* AppKit.framework */,
+				C07AFF3213AB30DD00F1BBAC /* CoreData.framework */,
+				C07AFF3313AB30DD00F1BBAC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C07AFF3413AB30DD00F1BBAC /* Fucking Great Advice */ = {
+			isa = PBXGroup;
+			children = (
+				C07AFF4013AB30DE00F1BBAC /* Fucking_Great_AdviceAppDelegate.h */,
+				C07AFF4113AB30DE00F1BBAC /* Fucking_Great_AdviceAppDelegate.m */,
+				C07AFF4313AB30DE00F1BBAC /* MainMenu.xib */,
+				C0744AD713AB5B460063054F /* MAAttachedWindow */,
+				C0744AD613AB5B3C0063054F /* JSONKit */,
+				C07AFF5513AB38AC00F1BBAC /* BCStatusItem */,
+				C07AFF3513AB30DD00F1BBAC /* Supporting Files */,
+				C07AFF9113AB48DE00F1BBAC /* PopoverViewController.h */,
+				C07AFF9213AB48DE00F1BBAC /* PopoverViewController.m */,
+				C0744AD813AB5C9D0063054F /* EBRPopoverView.h */,
+				C0744AD913AB5C9D0063054F /* EBRPopoverView.m */,
+				C07AFF9313AB48DE00F1BBAC /* PopoverViewController.xib */,
+			);
+			path = "Fucking Great Advice";
+			sourceTree = "<group>";
+		};
+		C07AFF3513AB30DD00F1BBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB576C13AB975B00B390DC /* FGAIcon.png */,
+				C0BB577513AB9A4E00B390DC /* fullsizeAppIcon.icns */,
+				C03839B613ADE1A30098A133 /* 1308469776_no.png */,
+				C03839B913ADE3260098A133 /* 1308469776_no copy.png */,
+				C07AFF3613AB30DD00F1BBAC /* Fucking Great Advice-Info.plist */,
+				C07AFF3713AB30DE00F1BBAC /* InfoPlist.strings */,
+				C07AFF3A13AB30DE00F1BBAC /* main.m */,
+				C07AFF3C13AB30DE00F1BBAC /* Fucking Great Advice-Prefix.pch */,
+				C07AFF3D13AB30DE00F1BBAC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C07AFF5513AB38AC00F1BBAC /* BCStatusItem */ = {
+			isa = PBXGroup;
+			children = (
+				C07AFF4F13AB38A700F1BBAC /* BCStatusItemView.h */,
+				C07AFF5013AB38A700F1BBAC /* BCStatusItemView.m */,
+				C07AFF5113AB38A700F1BBAC /* NSStatusItem+BCStatusItem.h */,
+				C07AFF5213AB38A700F1BBAC /* NSStatusItem+BCStatusItem.m */,
+			);
+			name = BCStatusItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07AFF2913AB30DD00F1BBAC /* Fucking Great Adviser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07AFF4813AB30DE00F1BBAC /* Build configuration list for PBXNativeTarget "Fucking Great Adviser" */;
+			buildPhases = (
+				C07AFF2613AB30DD00F1BBAC /* Sources */,
+				C07AFF2713AB30DD00F1BBAC /* Frameworks */,
+				C07AFF2813AB30DD00F1BBAC /* Resources */,
+				C07AFF6713AB42FA00F1BBAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fucking Great Adviser";
+			productName = "Fucking Great Advice";
+			productReference = C07AFF2A13AB30DD00F1BBAC /* Fucking Great Advice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07AFF2113AB30DD00F1BBAC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C07AFF2413AB30DD00F1BBAC /* Build configuration list for PBXProject "Fucking Great Advice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C07AFF1F13AB30DD00F1BBAC;
+			productRefGroup = C07AFF2B13AB30DD00F1BBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07AFF2913AB30DD00F1BBAC /* Fucking Great Adviser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07AFF2813AB30DD00F1BBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07AFF3913AB30DE00F1BBAC /* InfoPlist.strings in Resources */,
+				C07AFF3F13AB30DE00F1BBAC /* Credits.rtf in Resources */,
+				C07AFF4513AB30DE00F1BBAC /* MainMenu.xib in Resources */,
+				C07AFF9513AB48DE00F1BBAC /* PopoverViewController.xib in Resources */,
+				C0BB576E13AB975B00B390DC /* FGAIcon.png in Resources */,
+				C0BB577613AB9A4E00B390DC /* fullsizeAppIcon.icns in Resources */,
+				C03839B713ADE1A30098A133 /* 1308469776_no.png in Resources */,
+				C03839BA13ADE3270098A133 /* 1308469776_no copy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07AFF2613AB30DD00F1BBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07AFF3B13AB30DE00F1BBAC /* main.m in Sources */,
+				C07AFF4213AB30DE00F1BBAC /* Fucking_Great_AdviceAppDelegate.m in Sources */,
+				C07AFF5313AB38A700F1BBAC /* BCStatusItemView.m in Sources */,
+				C07AFF5413AB38A700F1BBAC /* NSStatusItem+BCStatusItem.m in Sources */,
+				C07AFF9413AB48DE00F1BBAC /* PopoverViewController.m in Sources */,
+				C0744AD513AB577C0063054F /* JSONKit.m in Sources */,
+				C0744ADA13AB5C9D0063054F /* EBRPopoverView.m in Sources */,
+				C0BB577913ACA85C00B390DC /* MAAttachedWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C07AFF3713AB30DE00F1BBAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07AFF3813AB30DE00F1BBAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C07AFF3D13AB30DE00F1BBAC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07AFF3E13AB30DE00F1BBAC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C07AFF4313AB30DE00F1BBAC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07AFF4413AB30DE00F1BBAC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C0BB576C13AB975B00B390DC /* FGAIcon.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BB576D13AB975B00B390DC /* en */,
+			);
+			name = FGAIcon.png;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07AFF4613AB30DE00F1BBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C07AFF4713AB30DE00F1BBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C07AFF4913AB30DE00F1BBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fucking Great Advice/Fucking Great Advice-Prefix.pch";
+				INFOPLIST_FILE = "Fucking Great Advice/Fucking Great Advice-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Fucking Great Advice";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C07AFF4A13AB30DE00F1BBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fucking Great Advice/Fucking Great Advice-Prefix.pch";
+				INFOPLIST_FILE = "Fucking Great Advice/Fucking Great Advice-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "Fucking Great Advice";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07AFF2413AB30DD00F1BBAC /* Build configuration list for PBXProject "Fucking Great Advice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07AFF4613AB30DE00F1BBAC /* Debug */,
+				C07AFF4713AB30DE00F1BBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07AFF4813AB30DE00F1BBAC /* Build configuration list for PBXNativeTarget "Fucking Great Adviser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07AFF4913AB30DE00F1BBAC /* Debug */,
+				C07AFF4A13AB30DE00F1BBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07AFF2113AB30DD00F1BBAC /* Project object */;
+}
